@@ -39,9 +39,9 @@ public class Bank {
 		
 		ArrayList<Account> accounts = new  ArrayList<>();
 		
-//		for(Account value : alist) {
-//			if(name.equals(value.getName())) {
-//				accounts.add(value);
+//		for(Account account : alist) {
+//			if(name.equals(account.getName())) {
+//				accounts.add(account);
 //				
 //			}
 //		}

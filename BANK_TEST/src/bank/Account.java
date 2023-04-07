@@ -81,6 +81,11 @@ public class Account {
 	}
 
 	
+	public String toString2() {
+		return "Account [accountNo=" + accountNo + ", name=" + name + "]";
+	}
+	
+	
 
 
 

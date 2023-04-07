@@ -27,13 +27,13 @@ public class main {
         //은행은 계좌번호로 계좌를 찾을 수 있다.
         System.out.println("***계좌번호가 2222인 계좌 조회***");
         Account getAccount = bank.getAccount("2222");
-        System.out.println(getAccount);
+        System.out.println(getAccount.toString2());
         
         //은행읜 계좌의 소유자명으로 계좌를 찾을 수 있다.
         System.out.println("\n***이름이 hong인 사람의 계좌 조회***");
         ArrayList<Account> findAccount = bank.getAccounts("hong");
         for(Account a : findAccount) {
-            System.out.println(a);
+            System.out.println(a.toString2());
         }
         
         
@@ -41,7 +41,7 @@ public class main {
         System.out.println("\n***모든 계좌 목록 조회***");
         ArrayList<Account> accounts = bank.getAccounts();
         for(Account a : accounts) {
-            System.out.println(a);
+            System.out.println(a.toString2());
         }
         System.out.println("총계좌 수: "+bank.getTotalAccount());
 ////        

@@ -8,7 +8,7 @@ import kr.or.kosa.Emp;
  
  1.타입을처음부터 강제
  2. 타입 안정성(타입 강제)
- 3. 강제 형변환 필요 없다   [ex : (Car)object ] 필요없어진다.
+ 3. 강제 형변환 필요 없다   [ex : (Car)object ] 필요없어진다.	
  
  
  */
@@ -78,6 +78,7 @@ public class Ex04_Generic {
 		plist.add(new Person());
 		plist.add(new Person());
 		
+		//컬랙션명<클래스명> 이렇게 선언하면 해당 클래스의  
 		
 		
 		for(Person value : plist) {

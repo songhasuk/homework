@@ -18,11 +18,12 @@ public class Ex03_ArrayList_Object {
 			System.out.println(value);
 		}
 		
-		//3. ArrayLise 사용해서			 //[동적배열]이라 방의 크기가 데이터를 넣을 때마다 증설
+		//3. ArrayLise 사용해서	 //[동적배열]이라 방의 크기가 데이터를 넣을 때마다 증설
 		ArrayList elist = new ArrayList<>();
 		elist.add(new Emp(100, "김씨", "영업"));
 		elist.add(new Emp(200, "박씨", "IT"));
 		elist.add(new Emp(100, "김씨", "영업"));
+		
 		
 		for(int i =0 ; i < elist.size() ; i++ ) {
 			System.out.println(elist.get(i).toString());
